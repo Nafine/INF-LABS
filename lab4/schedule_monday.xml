@@ -1,0 +1,23 @@
+<schedule>
+    <even-week> true </even-week>
+	<group> P3115 </group>
+	<day> Monday </day>
+	<classes>
+		<class1>
+			<time> 08:20-09:50 </time>
+			<auditorium> 1330 </auditorium>
+			<building> Кронверкский пр., д.49, лит.А </building>
+			<subject> Основы профессиональной деятельности (лаб) </subject>
+			<teacher> Блохина Елена Николаевна </teacher>
+			<class-format> Очно-дистанционный </class-format>
+		</class1>
+		<class2>
+			<time> 10:00-11:30 </time>
+			<auditorium> 1330 </auditorium>
+			<building> Кронверкский пр., д.49, лит.А </building>
+			<subject> Основы профессиональной деятельности (лаб) </subject>
+			<teacher> Блохина Елена Николаевна </teacher>
+			<class-format> Очно-дистанционный </class-format>
+		</class2>
+	</classes>
+</schedule>

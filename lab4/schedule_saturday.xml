@@ -1,0 +1,19 @@
+<schedule>
+    <even-week> true </even-week>
+	<group> P3115 </group>
+	<day> Saturday </day>
+	<classes>
+		<class1>
+			<time> 13:30-15:00 </time>
+			<auditorium> 1338 </auditorium> <building> Кронверкский пр., д.49, лит.А </building> <subject> Программирование (лаб) </subject> <teacher> Кулинич Ярослав Вадимович </teacher> <lesson-format> Очно-дистанционный </lesson-format>
+		</class1>
+		<class2>
+			<time> 15:20-16:50 </time>
+			<auditorium> 1338 </auditorium>
+			<building> Кронверкский пр., д.49, лит.А </building>
+			<subject> Програмиирование (лаб) </subject>
+			<teacher> Кулинич Ярослав Вадимович </teacher>
+			<lesson-format> Очно-дистанционный </lesson-format>
+		</class2>
+	</classes>
+</schedule>
