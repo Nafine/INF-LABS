@@ -10,7 +10,10 @@ class json_type(Enum):
 class json_num:
     def __init__(self, content):
         self.name = get_tag_name(content[0])
-        self.val = int(re.match(re.compile(r'^\s*\d+(.\d+)?\s*$'), content[1]).group(0))
+        if '.' in content[1]:
+            self.val = float(re.match(re.compile(r'^\s*\d+(.\d+)?\s*$'), content[1]).group(0))
+        else:
+            self.val = int(re.match(re.compile(r'^\s*\d+(.\d+)?\s*$'), content[1]).group(0))
 
     def parse(self, depth = 1):
         return '\t' * depth + f'"{self.name}": {self.val}'

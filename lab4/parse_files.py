@@ -1,10 +1,4 @@
-from idlelib.iomenu import encoding
-
-import govnocode
-import govnocode_with_regex
-import lib
-import xml_to_dict
-import xml_to_json
+from src import govnocode_with_regex, lib, xml_to_dict, govnocode, xml_to_json
 import sys
 
 def get_algo(num):
@@ -30,15 +24,15 @@ while True:
     algo = get_algo(int(a))
 
     for file in open('tables.txt', 'r').read().splitlines():
-        source = open('source/' + file + '.xml', 'r', encoding='utf-8')
-        out = open('out/' + file + '.json', 'w', encoding='utf-8')
+        source = open('input/' + file + '.xml', 'r', encoding='utf-8')
+        out = open('output/' + file + '.json', 'w', encoding='utf-8')
         out.write(algo(source.read()))
         print('Parsed ' + file)
 
     if algo == lib.parse_xml_to_json or algo == xml_to_dict.parse_xml_to_json:
         for file in open('additional_tables.txt', 'r', encoding='utf-8').read().splitlines():
-            source = open('source/' + file + '.xml', 'r', encoding='utf-8')
-            out = open('out/' + file + '.json', 'w', encoding='utf-8')
+            source = open('input/' + file + '.xml', 'r', encoding='utf-8')
+            out = open('output/' + file + '.json', 'w', encoding='utf-8')
             out.write(algo(source.read()))
             print('Parsed ' + file)
     print("Parsing finished\n")
