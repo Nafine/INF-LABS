@@ -40,7 +40,7 @@ class json_array:
         for i in range(len(self.content_array)):
             obj = self.content_array[i]
             #parse all terrible nested json-objects
-            if type(obj) is json_object:
+            if isinstance(obj, json_object):
                 s += '\t' * (depth+1) + '{\n'
                 l = len(obj.content)
                 for j in range(l):
@@ -135,5 +135,5 @@ def parse_content(content):
 def split_into_tokens(xml_file):
     return re.findall(r'</?[^<>/]*>|(?!\s)[^<>/]+?(?=\s*</)', xml_file)
 
-def parse_xml_to_json(input_xml_file):
-    return '{\n' + json_object(split_into_tokens(input_xml_file.read())).parse() + '\n}'
+def parse_xml_to_json(xml_data) -> str:
+    return '{\n' + json_object(split_into_tokens(xml_data)).parse() + '\n}'

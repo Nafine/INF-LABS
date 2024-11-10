@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<customers>
+   <customer id="55000">
+      <name>Charter Group</name>
+      <address>
+         <street name="100 Main"/>
+         <city name="Framingham"/>
+         <state name = "MA"/>
+         <zip id = "01701"/>
+      </address>
+      <address>
+         <street name="720 Prospect"/>
+         <city name="Framingham"/>
+         <state name = "MA"/>
+         <zip id = "01701"/>
+      </address>
+      <address>
+         <street name="120 Ridge"/>
+         <state name="MA"/>
+         <zip id="01760"/>
+      </address>
+   </customer>
+</customers>
