@@ -13,7 +13,7 @@ with open("data.csv", encoding='utf-8') as f:
         print(row)
         if count == 0:
             pass
-            # col = [row[4], row[5], row[6], row[7]]
+
         elif row[0] == '28.09.2018':
             arr[0].append([int(row[1]), int(row[2]), int(row[3]), int(row[4])])
         elif row[0] == '03.10.2018':
