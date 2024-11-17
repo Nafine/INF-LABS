@@ -4,18 +4,19 @@ import re
 
 def parse_content(content):
     #check on bool
-    if  re.search(re.compile(r'(\bfalse\b|\btrue\b)'), content):
-        return False if re.search(r'false', content) else True
-    #check on int or float
-    elif re.match(re.compile(r'^\s*\d+(.\d+)?\s*$'), content):
-        return float(content) if '.' in content else int(content)
+    bool_reg = re.search(r'(\bfalse\b|\btrue\b)', content)
+    if bool_reg:
+        return True if bool_reg.group(1) == 'true' else False
+    #check for exactly one int or float
+    num_reg = re.match(r'^\s*\d+(\.\d+)?\s*$', content)
+    if num_reg:
+        return float(content) if num_reg.lastindex else int(content)
     #string otherwise
-    return f'{content}'
+    return content
 
 def xml_to_dict(element):
     #checks on attributes
-    has_attrib = len(element.attrib) != 0
-    if len(element) == 0 and not has_attrib:
+    if len(element) == 0 and len(element.attrib) == 0:
         return parse_content(element.text)
 
     #will add attributes if they are exists

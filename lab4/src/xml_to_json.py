@@ -113,7 +113,7 @@ def get_content_type(content):
     return json_type.OBJECT
 
 def get_tag_name(tag):
-    return re.match(r'</?(.*)>', tag).group(1)
+    return tag[1:-1]
 
 def is_opening_tag(token):
     return is_tag(token) and token[1] != '/'

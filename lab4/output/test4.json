@@ -1,0 +1,47 @@
+{
+    "customer": {
+        "@id": "55000",
+        "name": "Charter Group",
+        "address": [
+            {
+                "street": {
+                    "@name": "100 Main"
+                },
+                "city": {
+                    "@name": "Framingham"
+                },
+                "state": {
+                    "@name": "MA"
+                },
+                "zip": {
+                    "@id": "01701"
+                }
+            },
+            {
+                "street": {
+                    "@name": "720 Prospect"
+                },
+                "city": {
+                    "@name": "Framingham"
+                },
+                "state": {
+                    "@name": "MA"
+                },
+                "zip": {
+                    "@id": "01701"
+                }
+            },
+            {
+                "street": {
+                    "@name": "120 Ridge"
+                },
+                "state": {
+                    "@name": "MA"
+                },
+                "zip": {
+                    "@id": "01760"
+                }
+            }
+        ]
+    }
+}
