@@ -100,7 +100,7 @@ class json_object:
             s += self.content[i].parse(depth + 1)
             if i < l - 1:
                 s += ','
-            s+='\n'
+            s += '\n'
         s += '\t' * depth + '}'
         return s
 
