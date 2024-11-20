@@ -1,292 +1,319 @@
 {
-    "PLANT": [
-        {
-            "COMMON": "Bloodroot",
-            "BOTANICAL": "Sanguinaria canadensis",
-            "ZONE": 4,
-            "LIGHT": "Mostly Shady",
-            "PRICE": "$2.44",
-            "AVAILABILITY": 31599
-        },
-        {
-            "COMMON": "Columbine",
-            "BOTANICAL": "Aquilegia canadensis",
-            "ZONE": 3,
-            "LIGHT": "Mostly Shady",
-            "PRICE": "$9.37",
-            "AVAILABILITY": 30699
-        },
-        {
-            "COMMON": "Marsh Marigold",
-            "BOTANICAL": "Caltha palustris",
-            "ZONE": 4,
-            "LIGHT": "Mostly Sunny",
-            "PRICE": "$6.81",
-            "AVAILABILITY": 51799
-        },
-        {
-            "COMMON": "Cowslip",
-            "BOTANICAL": "Caltha palustris",
-            "ZONE": 4,
-            "LIGHT": "Mostly Shady",
-            "PRICE": "$9.90",
-            "AVAILABILITY": 30699
-        },
-        {
-            "COMMON": "Dutchman's-Breeches",
-            "BOTANICAL": "Dicentra cucullaria",
-            "ZONE": 3,
-            "LIGHT": "Mostly Shady",
-            "PRICE": "$6.44",
-            "AVAILABILITY": 12099
-        },
-        {
-            "COMMON": "Ginger, Wild",
-            "BOTANICAL": "Asarum canadense",
-            "ZONE": 3,
-            "LIGHT": "Mostly Shady",
-            "PRICE": "$9.03",
-            "AVAILABILITY": 41899
-        },
-        {
-            "COMMON": "Hepatica",
-            "BOTANICAL": "Hepatica americana",
-            "ZONE": 4,
-            "LIGHT": "Mostly Shady",
-            "PRICE": "$4.45",
-            "AVAILABILITY": 12699
-        },
-        {
-            "COMMON": "Liverleaf",
-            "BOTANICAL": "Hepatica americana",
-            "ZONE": 4,
-            "LIGHT": "Mostly Shady",
-            "PRICE": "$3.99",
-            "AVAILABILITY": 10299
-        },
-        {
-            "COMMON": "Jack-In-The-Pulpit",
-            "BOTANICAL": "Arisaema triphyllum",
-            "ZONE": 4,
-            "LIGHT": "Mostly Shady",
-            "PRICE": "$3.23",
-            "AVAILABILITY": 20199
-        },
-        {
-            "COMMON": "Mayapple",
-            "BOTANICAL": "Podophyllum peltatum",
-            "ZONE": 3,
-            "LIGHT": "Mostly Shady",
-            "PRICE": "$2.98",
-            "AVAILABILITY": 60599
-        },
-        {
-            "COMMON": "Phlox, Woodland",
-            "BOTANICAL": "Phlox divaricata",
-            "ZONE": 3,
-            "LIGHT": "Sun or Shade",
-            "PRICE": "$2.80",
-            "AVAILABILITY": 12299
-        },
-        {
-            "COMMON": "Phlox, Blue",
-            "BOTANICAL": "Phlox divaricata",
-            "ZONE": 3,
-            "LIGHT": "Sun or Shade",
-            "PRICE": "$5.59",
-            "AVAILABILITY": 21699
-        },
-        {
-            "COMMON": "Spring-Beauty",
-            "BOTANICAL": "Claytonia Virginica",
-            "ZONE": 7,
-            "LIGHT": "Mostly Shady",
-            "PRICE": "$6.59",
-            "AVAILABILITY": 20199
-        },
-        {
-            "COMMON": "Trillium",
-            "BOTANICAL": "Trillium grandiflorum",
-            "ZONE": 5,
-            "LIGHT": "Sun or Shade",
-            "PRICE": "$3.90",
-            "AVAILABILITY": 42999
-        },
-        {
-            "COMMON": "Wake Robin",
-            "BOTANICAL": "Trillium grandiflorum",
-            "ZONE": 5,
-            "LIGHT": "Sun or Shade",
-            "PRICE": "$3.20",
-            "AVAILABILITY": 22199
-        },
-        {
-            "COMMON": "Violet, Dog-Tooth",
-            "BOTANICAL": "Erythronium americanum",
-            "ZONE": 4,
-            "LIGHT": "Shade",
-            "PRICE": "$9.04",
-            "AVAILABILITY": 20199
-        },
-        {
-            "COMMON": "Trout Lily",
-            "BOTANICAL": "Erythronium americanum",
-            "ZONE": 4,
-            "LIGHT": "Shade",
-            "PRICE": "$6.94",
-            "AVAILABILITY": 32499
-        },
-        {
-            "COMMON": "Adder's-Tongue",
-            "BOTANICAL": "Erythronium americanum",
-            "ZONE": 4,
-            "LIGHT": "Shade",
-            "PRICE": "$9.58",
-            "AVAILABILITY": 41399
-        },
-        {
-            "COMMON": "Anemone",
-            "BOTANICAL": "Anemone blanda",
-            "ZONE": 6,
-            "LIGHT": "Mostly Shady",
-            "PRICE": "$8.86",
-            "AVAILABILITY": 122698
-        },
-        {
-            "COMMON": "Grecian Windflower",
-            "BOTANICAL": "Anemone blanda",
-            "ZONE": 6,
-            "LIGHT": "Mostly Shady",
-            "PRICE": "$9.16",
-            "AVAILABILITY": 71099
-        },
-        {
-            "COMMON": "Bee Balm",
-            "BOTANICAL": "Monarda didyma",
-            "ZONE": 4,
-            "LIGHT": "Shade",
-            "PRICE": "$4.59",
-            "AVAILABILITY": 50399
-        },
-        {
-            "COMMON": "Bergamot",
-            "BOTANICAL": "Monarda didyma",
-            "ZONE": 4,
-            "LIGHT": "Shade",
-            "PRICE": "$7.16",
-            "AVAILABILITY": 42799
-        },
-        {
-            "COMMON": "Black-Eyed Susan",
-            "BOTANICAL": "Rudbeckia hirta",
-            "ZONE": "Annual",
-            "LIGHT": "Sunny",
-            "PRICE": "$9.80",
-            "AVAILABILITY": 61899
-        },
-        {
-            "COMMON": "Buttercup",
-            "BOTANICAL": "Ranunculus",
-            "ZONE": 4,
-            "LIGHT": "Shade",
-            "PRICE": "$2.57",
-            "AVAILABILITY": 61099
-        },
-        {
-            "COMMON": "Crowfoot",
-            "BOTANICAL": "Ranunculus",
-            "ZONE": 4,
-            "LIGHT": "Shade",
-            "PRICE": "$9.34",
-            "AVAILABILITY": 40399
-        },
-        {
-            "COMMON": "Butterfly Weed",
-            "BOTANICAL": "Asclepias tuberosa",
-            "ZONE": "Annual",
-            "LIGHT": "Sunny",
-            "PRICE": "$2.78",
-            "AVAILABILITY": 63099
-        },
-        {
-            "COMMON": "Cinquefoil",
-            "BOTANICAL": "Potentilla",
-            "ZONE": "Annual",
-            "LIGHT": "Shade",
-            "PRICE": "$7.06",
-            "AVAILABILITY": 52599
-        },
-        {
-            "COMMON": "Primrose",
-            "BOTANICAL": "Oenothera",
-            "ZONE": "3 - 5",
-            "LIGHT": "Sunny",
-            "PRICE": "$6.56",
-            "AVAILABILITY": 13099
-        },
-        {
-            "COMMON": "Gentian",
-            "BOTANICAL": "Gentiana",
-            "ZONE": 4,
-            "LIGHT": "Sun or Shade",
-            "PRICE": "$7.81",
-            "AVAILABILITY": 51899
-        },
-        {
-            "COMMON": "Blue Gentian",
-            "BOTANICAL": "Gentiana",
-            "ZONE": 4,
-            "LIGHT": "Sun or Shade",
-            "PRICE": "$8.56",
-            "AVAILABILITY": 50299
-        },
-        {
-            "COMMON": "Jacob's Ladder",
-            "BOTANICAL": "Polemonium caeruleum",
-            "ZONE": "Annual",
-            "LIGHT": "Shade",
-            "PRICE": "$9.26",
-            "AVAILABILITY": 22199
-        },
-        {
-            "COMMON": "Greek Valerian",
-            "BOTANICAL": "Polemonium caeruleum",
-            "ZONE": "Annual",
-            "LIGHT": "Shade",
-            "PRICE": "$4.36",
-            "AVAILABILITY": 71499
-        },
-        {
-            "COMMON": "California Poppy",
-            "BOTANICAL": "Eschscholzia californica",
-            "ZONE": "Annual",
-            "LIGHT": "Sun",
-            "PRICE": "$7.89",
-            "AVAILABILITY": 32799
-        },
-        {
-            "COMMON": "Shooting Star",
-            "BOTANICAL": "Dodecatheon",
-            "ZONE": "Annual",
-            "LIGHT": "Mostly Shady",
-            "PRICE": "$8.60",
-            "AVAILABILITY": 51399
-        },
-        {
-            "COMMON": "Snakeroot",
-            "BOTANICAL": "Cimicifuga",
-            "ZONE": "Annual",
-            "LIGHT": "Shade",
-            "PRICE": "$5.63",
-            "AVAILABILITY": 71199
-        },
-        {
-            "COMMON": "Cardinal Flower",
-            "BOTANICAL": "Lobelia cardinalis",
-            "ZONE": 2,
-            "LIGHT": "Shade",
-            "PRICE": "$3.02",
-            "AVAILABILITY": 22299
-        }
-    ]
+	"CATALOG": {
+		"PLANT": {
+			"COMMON": "Bloodroo",
+			"BOTANICAL": "Sanguinaria canadensi",
+			"ZONE": {
+			},
+			"LIGHT": "Mostly Shad",
+			"PRICE": "2.4",
+			"AVAILABILITY": "03159"
+		},
+		"PLANT": {
+			"COMMON": "Columbin",
+			"BOTANICAL": "Aquilegia canadensi",
+			"ZONE": {
+			},
+			"LIGHT": "Mostly Shad",
+			"PRICE": "9.3",
+			"AVAILABILITY": "03069"
+		},
+		"PLANT": {
+			"COMMON": "Marsh Marigol",
+			"BOTANICAL": "Caltha palustri",
+			"ZONE": {
+			},
+			"LIGHT": "Mostly Sunn",
+			"PRICE": "6.8",
+			"AVAILABILITY": "05179"
+		},
+		"PLANT": {
+			"COMMON": "Cowsli",
+			"BOTANICAL": "Caltha palustri",
+			"ZONE": {
+			},
+			"LIGHT": "Mostly Shad",
+			"PRICE": "9.9",
+			"AVAILABILITY": "03069"
+		},
+		"PLANT": {
+			"COMMON": "Dutchman's-Breeche",
+			"BOTANICAL": "Dicentra cucullari",
+			"ZONE": {
+			},
+			"LIGHT": "Mostly Shad",
+			"PRICE": "6.4",
+			"AVAILABILITY": "01209"
+		},
+		"PLANT": {
+			"COMMON": "Ginger, Wil",
+			"BOTANICAL": "Asarum canadens",
+			"ZONE": {
+			},
+			"LIGHT": "Mostly Shad",
+			"PRICE": "9.0",
+			"AVAILABILITY": "04189"
+		},
+		"PLANT": {
+			"COMMON": "Hepatic",
+			"BOTANICAL": "Hepatica american",
+			"ZONE": {
+			},
+			"LIGHT": "Mostly Shad",
+			"PRICE": "4.4",
+			"AVAILABILITY": "01269"
+		},
+		"PLANT": {
+			"COMMON": "Liverlea",
+			"BOTANICAL": "Hepatica american",
+			"ZONE": {
+			},
+			"LIGHT": "Mostly Shad",
+			"PRICE": "3.9",
+			"AVAILABILITY": "01029"
+		},
+		"PLANT": {
+			"COMMON": "Jack-In-The-Pulpi",
+			"BOTANICAL": "Arisaema triphyllu",
+			"ZONE": {
+			},
+			"LIGHT": "Mostly Shad",
+			"PRICE": "3.2",
+			"AVAILABILITY": "02019"
+		},
+		"PLANT": {
+			"COMMON": "Mayappl",
+			"BOTANICAL": "Podophyllum peltatu",
+			"ZONE": {
+			},
+			"LIGHT": "Mostly Shad",
+			"PRICE": "2.9",
+			"AVAILABILITY": "06059"
+		},
+		"PLANT": {
+			"COMMON": "Phlox, Woodlan",
+			"BOTANICAL": "Phlox divaricat",
+			"ZONE": {
+			},
+			"LIGHT": "Sun or Shad",
+			"PRICE": "2.8",
+			"AVAILABILITY": "01229"
+		},
+		"PLANT": {
+			"COMMON": "Phlox, Blu",
+			"BOTANICAL": "Phlox divaricat",
+			"ZONE": {
+			},
+			"LIGHT": "Sun or Shad",
+			"PRICE": "5.5",
+			"AVAILABILITY": "02169"
+		},
+		"PLANT": {
+			"COMMON": "Spring-Beaut",
+			"BOTANICAL": "Claytonia Virginic",
+			"ZONE": {
+			},
+			"LIGHT": "Mostly Shad",
+			"PRICE": "6.5",
+			"AVAILABILITY": "02019"
+		},
+		"PLANT": {
+			"COMMON": "Trilliu",
+			"BOTANICAL": "Trillium grandifloru",
+			"ZONE": {
+			},
+			"LIGHT": "Sun or Shad",
+			"PRICE": "3.9",
+			"AVAILABILITY": "04299"
+		},
+		"PLANT": {
+			"COMMON": "Wake Robi",
+			"BOTANICAL": "Trillium grandifloru",
+			"ZONE": {
+			},
+			"LIGHT": "Sun or Shad",
+			"PRICE": "3.2",
+			"AVAILABILITY": "02219"
+		},
+		"PLANT": {
+			"COMMON": "Violet, Dog-Toot",
+			"BOTANICAL": "Erythronium americanu",
+			"ZONE": {
+			},
+			"LIGHT": "Shad",
+			"PRICE": "9.0",
+			"AVAILABILITY": "02019"
+		},
+		"PLANT": {
+			"COMMON": "Trout Lil",
+			"BOTANICAL": "Erythronium americanu",
+			"ZONE": {
+			},
+			"LIGHT": "Shad",
+			"PRICE": "6.9",
+			"AVAILABILITY": "03249"
+		},
+		"PLANT": {
+			"COMMON": "Adder's-Tongu",
+			"BOTANICAL": "Erythronium americanu",
+			"ZONE": {
+			},
+			"LIGHT": "Shad",
+			"PRICE": "9.5",
+			"AVAILABILITY": "04139"
+		},
+		"PLANT": {
+			"COMMON": "Anemon",
+			"BOTANICAL": "Anemone bland",
+			"ZONE": {
+			},
+			"LIGHT": "Mostly Shad",
+			"PRICE": "8.8",
+			"AVAILABILITY": "12269"
+		},
+		"PLANT": {
+			"COMMON": "Grecian Windflowe",
+			"BOTANICAL": "Anemone bland",
+			"ZONE": {
+			},
+			"LIGHT": "Mostly Shad",
+			"PRICE": "9.1",
+			"AVAILABILITY": "07109"
+		},
+		"PLANT": {
+			"COMMON": "Bee Bal",
+			"BOTANICAL": "Monarda didym",
+			"ZONE": {
+			},
+			"LIGHT": "Shad",
+			"PRICE": "4.5",
+			"AVAILABILITY": "05039"
+		},
+		"PLANT": {
+			"COMMON": "Bergamo",
+			"BOTANICAL": "Monarda didym",
+			"ZONE": {
+			},
+			"LIGHT": "Shad",
+			"PRICE": "7.1",
+			"AVAILABILITY": "04279"
+		},
+		"PLANT": {
+			"COMMON": "Black-Eyed Susa",
+			"BOTANICAL": "Rudbeckia hirt",
+			"ZONE": "Annua",
+			"LIGHT": "Sunn",
+			"PRICE": "9.8",
+			"AVAILABILITY": "06189"
+		},
+		"PLANT": {
+			"COMMON": "Buttercu",
+			"BOTANICAL": "Ranunculu",
+			"ZONE": {
+			},
+			"LIGHT": "Shad",
+			"PRICE": "2.5",
+			"AVAILABILITY": "06109"
+		},
+		"PLANT": {
+			"COMMON": "Crowfoo",
+			"BOTANICAL": "Ranunculu",
+			"ZONE": {
+			},
+			"LIGHT": "Shad",
+			"PRICE": "9.3",
+			"AVAILABILITY": "04039"
+		},
+		"PLANT": {
+			"COMMON": "Butterfly Wee",
+			"BOTANICAL": "Asclepias tuberos",
+			"ZONE": "Annua",
+			"LIGHT": "Sunn",
+			"PRICE": "2.7",
+			"AVAILABILITY": "06309"
+		},
+		"PLANT": {
+			"COMMON": "Cinquefoi",
+			"BOTANICAL": "Potentill",
+			"ZONE": "Annua",
+			"LIGHT": "Shad",
+			"PRICE": "7.0",
+			"AVAILABILITY": "05259"
+		},
+		"PLANT": {
+			"COMMON": "Primros",
+			"BOTANICAL": "Oenother",
+			"ZONE": "3 -",
+			"LIGHT": "Sunn",
+			"PRICE": "6.5",
+			"AVAILABILITY": "01309"
+		},
+		"PLANT": {
+			"COMMON": "Gentia",
+			"BOTANICAL": "Gentian",
+			"ZONE": {
+			},
+			"LIGHT": "Sun or Shad",
+			"PRICE": "7.8",
+			"AVAILABILITY": "05189"
+		},
+		"PLANT": {
+			"COMMON": "Blue Gentia",
+			"BOTANICAL": "Gentian",
+			"ZONE": {
+			},
+			"LIGHT": "Sun or Shad",
+			"PRICE": "8.5",
+			"AVAILABILITY": "05029"
+		},
+		"PLANT": {
+			"COMMON": "Jacob's Ladde",
+			"BOTANICAL": "Polemonium caeruleu",
+			"ZONE": "Annua",
+			"LIGHT": "Shad",
+			"PRICE": "9.2",
+			"AVAILABILITY": "02219"
+		},
+		"PLANT": {
+			"COMMON": "Greek Valeria",
+			"BOTANICAL": "Polemonium caeruleu",
+			"ZONE": "Annua",
+			"LIGHT": "Shad",
+			"PRICE": "4.3",
+			"AVAILABILITY": "07149"
+		},
+		"PLANT": {
+			"COMMON": "California Popp",
+			"BOTANICAL": "Eschscholzia californic",
+			"ZONE": "Annua",
+			"LIGHT": "Su",
+			"PRICE": "7.8",
+			"AVAILABILITY": "03279"
+		},
+		"PLANT": {
+			"COMMON": "Shooting Sta",
+			"BOTANICAL": "Dodecatheo",
+			"ZONE": "Annua",
+			"LIGHT": "Mostly Shad",
+			"PRICE": "8.6",
+			"AVAILABILITY": "05139"
+		},
+		"PLANT": {
+			"COMMON": "Snakeroo",
+			"BOTANICAL": "Cimicifug",
+			"ZONE": "Annua",
+			"LIGHT": "Shad",
+			"PRICE": "5.6",
+			"AVAILABILITY": "07119"
+		},
+		"PLANT": {
+			"COMMON": "Cardinal Flowe",
+			"BOTANICAL": "Lobelia cardinali",
+			"ZONE": {
+			},
+			"LIGHT": "Shad",
+			"PRICE": "3.0",
+			"AVAILABILITY": "02229"
+		}
+	}
 }

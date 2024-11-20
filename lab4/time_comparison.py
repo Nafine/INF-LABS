@@ -11,28 +11,28 @@ def time_test():
     print(f"Тупой парсинг:\n\t{end_time - start_time}")
 
     start_time = time.perf_counter()
-    for i in range(1000):
+    for i in range(100):
         lib.parse_xml_to_json(testing_data)
     end_time = time.perf_counter()
 
     print(f"Парсинг библиотекой:\n\t{end_time - start_time}")
 
     start_time = time.perf_counter()
-    for i in range(1000):
+    for i in range(100):
         govnocode_with_regex.parse_xml_to_json(testing_data)
     end_time = time.perf_counter()
 
     print(f"Тупой парсинг + регулярные выражения:\n\t{end_time - start_time}")
 
     start_time = time.perf_counter()
-    for i in range(1000):
+    for i in range(100):
         xml_to_dict.parse_xml_to_json(testing_data)
     end_time = time.perf_counter()
 
     print(f"Парсинг с помощью формальных грамматик:\n\t{end_time - start_time}")
 
     start_time = time.perf_counter()
-    for i in range(1000):
+    for i in range(100):
         xml_to_json.parse_xml_to_json(testing_data)
     end_time = time.perf_counter()
 

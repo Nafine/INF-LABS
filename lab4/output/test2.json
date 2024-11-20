@@ -1,34 +1,34 @@
 {
-    "food": [
-        {
-            "name": "Belgian Waffles",
-            "price": "$5.95",
-            "description": "Two of our famous Belgian Waffles with plenty of real maple syrup",
-            "calories": 650.125
-        },
-        {
-            "name": "Strawberry Belgian Waffles",
-            "price": "$7.95",
-            "description": "Light Belgian waffles covered with strawberries and whipped cream",
-            "calories": 900
-        },
-        {
-            "name": "Berry-Berry Belgian Waffles",
-            "price": "$8.95",
-            "description": "Light Belgian waffles covered with an assortment of fresh berries and whipped cream",
-            "calories": 900
-        },
-        {
-            "name": "French Toast",
-            "price": "$4.50",
-            "description": "Thick slices made from our homemade sourdough bread",
-            "calories": 600
-        },
-        {
-            "name": "Homestyle Breakfast",
-            "price": "$6.95",
-            "description": "Two eggs, bacon or sausage, toast, and our ever-popular hash browns",
-            "calories": 950
-        }
-    ]
+	"breakfast_menu": {
+		"food": {
+			"name": "Belgian Waffle",
+			"price": "5.9",
+			"description": "Two of our famous Belgian Waffles with plenty of real maple syru",
+			"calories": "650.12"
+		},
+		"food": {
+			"name": "Strawberry Belgian Waffle",
+			"price": "7.9",
+			"description": "Light Belgian waffles covered with strawberries and whipped crea",
+			"calories": "90"
+		},
+		"food": {
+			"name": "Berry-Berry Belgian Waffle",
+			"price": "8.9",
+			"description": "Light Belgian waffles covered with an assortment of fresh berries and whipped crea",
+			"calories": "90"
+		},
+		"food": {
+			"name": "French Toas",
+			"price": "4.5",
+			"description": "Thick slices made from our homemade sourdough brea",
+			"calories": "60"
+		},
+		"food": {
+			"name": "Homestyle Breakfas",
+			"price": "6.9",
+			"description": "Two eggs, bacon or sausage, toast, and our ever-popular hash brown",
+			"calories": "95"
+		}
+	}
 }

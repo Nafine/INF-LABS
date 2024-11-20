@@ -15,8 +15,8 @@ def parse_xml_to_csv(xml_data, output_file):
         for i in range(len(lesson)):
             if len(atr[i]) == 1: atr[i][0] = lesson[i].tag
             atr[i].append(lesson[i].text)
-
-    csv.writer(open(output_file, 'w', encoding='utf-8'), delimiter=',', lineterminator='\n').writerows([lessons_table, *atr])
+    print([lessons_table, *atr])
+    csv.writer(open(output_file, 'w'), delimiter=',', lineterminator='\n').writerows([lessons_table, *atr])
 
 parse_xml_to_csv(open('../input/schedule_monday.xml', 'r').read(), '../output/schedule_monday.csv')
 parse_xml_to_csv(open('../input/schedule_saturday.xml', 'r').read(), '../output/schedule_saturday.csv')
